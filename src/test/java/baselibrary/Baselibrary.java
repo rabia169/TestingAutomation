@@ -11,6 +11,7 @@ public class Baselibrary
 	{
 		WebDriver driver = new ChromeDriver();
 		driver.get("https:testingbaba.com/old/");
+		driver.manage().window().maximize();
 	}
 
 }
