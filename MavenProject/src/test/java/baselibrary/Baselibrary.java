@@ -10,7 +10,7 @@ public class Baselibrary
 	public void launchURL()
 	{
 		WebDriver driver = new ChromeDriver();
-		
+		driver.get("https://testingbaba.com/old/");
 	}
 
 }
